@@ -4,13 +4,21 @@
   "description": "Yandex.Metrica for NextJS",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "homepage": "https://github.com/OmgDef/next-metrica#readme",
+  "bugs" : {
+    "url" : "https://github.com/OmgDef/next-metrica/issues"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "git+https://github.com/OmgDef/next-metrica.git"
+  },
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jestconfig.json",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
+    "prepublishOnly": "npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"

@@ -1,10 +1,12 @@
-//@ts-nocheck
+// @ts-nocheck
 
 export default function loadYm() {
   /* eslint-disable */
+  // tslint:disable-next-line: only-arrow-functions
   (function (m, e, t, r, i, k, a) {
     m[i] =
       m[i] ||
+      // tslint:disable-next-line: only-arrow-functions
       function () {
         (m[i].a = m[i].a || []).push(arguments);
       };
