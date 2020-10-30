@@ -3,10 +3,9 @@ import { YmContext } from './context';
 import { ym, initYm } from './core';
 import { HitOptions, InitOptions } from './types';
 
-export function useYm(trackingId?: number, trackPages = true) {
+export function useYm(trackingId?: number) {
   const context = useContext(YmContext);
   const prevUrl = useRef('');
-  // const router = useRouter();
   const localId = trackingId || context.trackingId;
 
   const api = {
