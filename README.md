@@ -1,0 +1,1 @@
+# Yandex.Metrica for NextJS
