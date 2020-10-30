@@ -1,16 +1,16 @@
 {
   "name": "next-metrica",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "Yandex.Metrica for NextJS",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "homepage": "https://github.com/OmgDef/next-metrica#readme",
-  "bugs" : {
-    "url" : "https://github.com/OmgDef/next-metrica/issues"
+  "bugs": {
+    "url": "https://github.com/OmgDef/next-metrica/issues"
   },
   "repository": {
-    "type" : "git",
-    "url" : "git+https://github.com/OmgDef/next-metrica.git"
+    "type": "git",
+    "url": "git+https://github.com/OmgDef/next-metrica.git"
   },
   "scripts": {
     "build": "tsc",
